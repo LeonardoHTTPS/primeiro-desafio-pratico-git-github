@@ -1,5 +1,17 @@
 # Códigos Aprendidos na Prática Git Bash:muscle:
 
+<u>**Dando inicio...**</u>
+
+### *Para identificar a pasta como repositório local git, você precisa inicializar o git. No Git Bash, digite: git init*
+
+
+
+### Configurando uma conta
+
+- git config --global user.name "Nome de Usuário do GitHub"
+
+- git config --global user.email "email do GitHub"
+
 ### *Como criar pasta:question:*
 
 -  mkdir "nome da pasta"
@@ -24,11 +36,23 @@
 
 ### *Como adicionar arquivos área stage:question:*
 
-- git add *
+- git add * ou git add .
 
 ### *Como adicionar arquivos GitHub:question:*
 
-- git push origin master
+- git push origin master ou main
+
+**_É possível dar pull com apenas o comando `git pull origin_**
+
+### *O que fazer quando adicionado um novo arquivo ou editado:question:*
+
+- git commit -m "Descrição da mudança feita"
 
   
+
+<u>_**Para saber o status dos arquivos, ver quais foram modificados, se já estão add pra commit e etc. use o "git status"**_</u>
+
+#### [_Referencias_](https://gist.github.com/adammacias/bb358a90a4f4cea50b41#:~:text=Entrar%20na%20pasta,%3A%2Fcaminho%2Fcaminho%2Fnomepasta%2F)
+
+
 
