@@ -22,5 +22,13 @@
 
 - cd "nome da pasta"
 
+### *Como adicionar arquivos área stage:question:*
 
+- git add *
+
+### *Como adicionar arquivos GitHub:question:*
+
+- git push origin master
+
+  
 
